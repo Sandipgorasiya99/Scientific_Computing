@@ -7,7 +7,7 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-url = input('Enter - ')
+url = "http://py4e-data.dr-chuck.net/known_by_Winnifred.html"
 pos = input('Position: ')
 rpt = input('Repeat: ')
 lp = 0
