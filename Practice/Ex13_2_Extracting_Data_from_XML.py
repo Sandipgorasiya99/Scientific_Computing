@@ -8,7 +8,7 @@ ctx.check_hostname= False
 ctx.verify_mode= ssl.CERT_NONE
 
 
-url = input ('Enter URL: ')
+url = 'http://py4e-data.dr-chuck.net/comments_1609182.xml'
 
 print('Retriving', url)
 uh = urllib.request.urlopen(url,context=ctx)
